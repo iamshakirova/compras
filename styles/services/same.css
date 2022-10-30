@@ -1,0 +1,54 @@
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.second-section{
+    background-color: #010019;
+    padding: 100px 0;
+}
+.third-section{
+    background-color: #080a1d;
+    padding: 100px 0;
+}
+.forth-section{
+    background-color: #080a1d;
+    padding: 100px 0;
+}
+.fifth-section{
+    background-color: #010019;
+    padding: 100px 0;
+}
+.sixth-section{
+    background-color: #080a1d;
+    padding: 100px 0;
+}
+.seventh-section{
+    background-color: #010019;
+    padding: 100px 0;
+}
+.eighth-section{
+    background-color: #080a1d;
+    padding: 100px 0;
+}
+.ninth-section{
+    background-color: #010019;
+    padding: 100px 0;
+}
+.tenth-section{
+    background-color: #080a1d;
+    padding: 100px 0;
+}
+.eleventh-section{
+    background-color: #010019;
+    padding: 100px 0;
+    border-bottom:1px solid #8698a9;
+}
+.twelfth-section{
+    background-color: #080a1d;
+    padding: 100px 0;
+    border-bottom:1px solid #8698a9;
+}
+.thirteenth-section{
+    background-color: #030921;
+    padding: 30px 0;
+}

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <script src="https://kit.fontawesome.com/a615388c88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="styles/whole.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-bars"></i>
+            <img src="allimages/logo (1).png" alt="">
+        </div>
+        <div class="head-menu">
+             <a href="">Home</a>
+             <a href="">About</a>
+             <a href="">Services</a>
+             <a href="">Portfolio</a>
+             <a href="">Experts</a>
+             <a href="">Pricing</a>
+             <a href="">News</a>
+             <a href="">Contacts</a>
+        </div>
+    </header>
+    <section class="home">
+        <div class="home-inner container">
+             <h1>We are the Business and <br> Consulting Expert</h1>
+             <p>Design is a way of life, a point of view. It involves the whole complex <br> of visual communications: talent, creative ability manual. </p>  
+        </div>
+        <div class="parent">
+            <div class="sq">
+                 <a href="" id="red">Get Started</a> 
+            </div>
+            <div class="sq">
+                 <a href="#" onclick="showModal()" id="white">Contact Us</a>
+            </div>
+        </div>
+        <div class="modal-window" id="modal">
+            <div class="modal-content">
+                <button id="close-btn" onclick="closeModal()">X</button>
+                <input type="text" placeholder="Name:" name="" id="">
+                <input type="password" placeholder="Phone:" name="" id="">
+                <input type="text" placeholder="E-mail:">
+                <button>Sign in</button>
+            </div>
+        </div>
+        <div>
+             <a class="prev" onclick="plusSlides(-1)">
+                 <i class="fa-solid fa-angle-left"></i>
+            </a>
+             <a class="next" onclick="plusSlides(1)">
+                 <i class="fa-solid fa-angle-right"></i>
+            </a>
+        </div>
+    </section>
+    <section class="about second-section">
+         <div class="about-inner container">
+             <div class="about-left">
+                 <div class="about-border">
+                     <img src="allimages/about-2section.jpeg"  alt="">
+                 </div>
+             </div>
+             <div class="about-right">
+                 <h1>about us</h1>
+                 <h2>We are the largest Business expert in Europe and Asia</h2>
+                 <p>Sorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                    ullamco laboris.</p>
+                 <div class="about-column">
+                     <div class="column">
+                         <h1>82+</h1>
+                         <h2>Project Complete</h2>
+                         <p>Lorem Ipsum is simply dummy <br> text of the printing type setting</p>
+                     </div>
+                     <div class="column">
+                         <h1>24%</h1>
+                         <h2>Great Results</h2>
+                         <p>Lorem Ipsum is simply dummy <br> text of the printing type setting</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </section>
+    <section class="services third-section">
+        <div class="services-inner container">
+            <div class="center-services">
+                <h1>Our special services</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="services-columns">
+                <div class="special">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <h1>Unique Design</h1>
+                    <p>Bring creature let Fish to grass under the given void from deep form greater and days give upon day light likeness.</p>
+                    <div class="icon-box"></div>
+                    <div class="border-box"></div>
+                </div>
+                <div class="special">
+                    <i class="fa-brands fa-accusoft"></i>
+                    <h1>Developement</h1>
+                    <p>Bring creature let Fish to grass under the given void from deep form greater and days give upon day light likeness.</p>
+                    <div class="icon-box"></div>
+                    <div class="border-box"></div>
+                </div>
+                <div class="special">
+                    <i class="fa-solid fa-lock"></i>
+                    <h1>Secure Service</h1>
+                    <p>Bring creature let Fish to grass under the given void from deep form greater and days give upon day light likeness.</p>
+                    <div class="icon-box"></div>
+                    <div class="border-box"></div>
+                </div>
+                <div class="special">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h1>Graphics</h1>
+                    <p>Bring creature let Fish to grass under the given void from deep form greater and days give upon day light likeness.</p>
+                    <div class="icon-box"></div>
+                    <div class="border-box"></div>
+                </div>
+                <div class="special">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h1>Digital Marketing</h1>
+                    <p>Bring creature let Fish to grass under the given void from deep form greater and days give upon day light likeness.</p>
+                    <div class="icon-box"></div>
+                    <div class="border-box"></div>
+                </div>
+                <div class="special">
+                    <i class="fa-solid fa-headphones-simple"></i>
+                    <h1>24/7 Support</h1>
+                    <p>Bring creature let Fish to grass under the given void from deep form greater and days give upon day light likeness.</p>
+                    <div class="icon-box"></div>
+                    <div class="border-box"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="create forth-section">
+        <div class="back-image container">
+            <div class="back-text">
+                <h1>Let’s create something together?</h1>
+                <p>Contact us without any hesitate</p>
+            </div>
+            <div class="back-contact">
+                <a href="">Contact us</a>
+            </div>
+        </div>
+    </section>
+    <section class="grow fifth-section">
+        <div class="grow-business container">
+            <div class="grow-text">
+                <h1>Grow your <span class="letter">business earn</span> <br> more money</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                <ul class="technics">
+                    <li>Innovation idea for business tecnology which is best in the world</li>
+                    <li>Famous online marketing agency in this modern country</li>
+                    <li>Digital content marketing online agency in the world</li>
+                    <li>Follow this steps for growing your business profit</li>
+                </ul>
+                <a href="">Read More</a>
+            </div>
+            <div class="grow-image">
+                <img src="allimages/faq.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="projects sixth-section">
+        <div class="projects-inner container">
+            <div class="recent-projects">
+                <h1>Our Recent Projects</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem incididunt ut labore et dolore magna aliqua.</p>
+                <a href="" class="active">View All</a>
+                <a href="">Marketing</a>
+                <a href="">Consulting</a>
+                <a href="">Branding</a>
+                <a href="">Finance</a>
+            </div>
+            <div class="project-boxes">
+                <div class="project-item">
+                    <img src="allimages/project_1.jpeg" alt="">
+                    <div class="item-txt">
+                        <h1>Digital Consulting</h1>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="allimages/project_2.jpeg" alt="">
+                    <div class="item-txt">
+                        <h1>Digital Marketing</h1>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="allimages/project_3.jpeg" alt="">
+                    <div class="item-txt">
+                        <h1>Branding</h1>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="allimages/project_4.jpeg" alt="">
+                    <div class="item-txt">
+                        <h1>Digital Consulting</h1>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="allimages/project_5.jpeg" alt="">
+                    <div class="item-txt">
+                        <h1>Finance</h1>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="allimages/project_6.jpeg" alt="">
+                    <div class="item-txt">
+                        <h1>Branding</h1>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+    <section class="experts seventh-section">
+        <div class="experts-inner container">
+            <div class="meet-experts">
+                <h1>Meet Our Expert</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="three-experts">
+                <div class="expert-card">
+                    <img src="allimages/team_1.jpeg" alt="">
+                    <div class="specialist">
+                        <div class="specialist-info">
+                            <h1>John Doe</h1>
+                            <p>Marketing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <img src="allimages/team_2.jpeg" alt="">
+                    <div class="specialist">
+                        <div class="specialist-info">
+                            <h1>John Doe</h1>
+                            <p>Marketing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <img src="allimages/team_3.jpeg" alt="">
+                    <div class="specialist">
+                        <div class="specialist-info">
+                            <h1>John Doe</h1>
+                            <p>Marketing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <img src="allimages/exp4.jpeg" alt="">
+                    <div class="specialist">
+                        <div class="specialist-info">
+                            <h1>John Doe</h1>
+                            <p>Marketing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <img src="allimages/exp5.jpeg" alt="">
+                    <div class="specialist">
+                        <div class="specialist-info">
+                            <h1>John Doe</h1>
+                            <p>Marketing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <img src="allimages/exp6.jpeg" alt="">
+                    <div class="specialist">
+                        <div class="specialist-info">
+                            <h1>John Doe</h1>
+                            <p>Marketing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <section class="questionnaire eighth-section">
+        <div class="questionnaire-inner container">
+            <div class="ask-form">
+                <h1>Ask Something From</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  <br> tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="two-forms">
+                <div class="left-form">
+                    <div class="form">
+                        <h1>experience a ranking factor?</h1>
+                    </div>
+                    <div class="form">
+                        <h1>relevance,authority & trust</h1>
+                    </div>
+                    <div class="form">
+                        <h1>24 hours - technical support</h1>
+                    </div>
+                    <div class="form">
+                        <h1>global supply chain solution</h1>
+                    </div>
+                </div>
+                <div class="right-form">
+                    <img src="allimages/boost-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pricing ninth-section">
+        <div class="pricing-inner container">
+            <div class="pricing-plan">
+                <h1>Our Pricing Plan</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                <div class="mothly-yearly-tabs">
+                    <a style="background-color: #fe4c1c;" href="">Monthly</a>
+                    <a href="">Yearly</a>
+                </div>
+            </div>
+            <div class="monthly-pricing">
+                <div class="price basic">
+                    <h1>Basic</h1>
+                    <p>For personal use</p>
+                    <h2>FREE</h2>
+                    <h3>FEATURES</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Rich components</li>
+                        <li><i class="fa-solid fa-check"></i> 20+ elements</li>
+                        <li><i class="fa-solid fa-check"></i> 6 months free support</li>
+                    </ul>
+                    <a href="">Get Started</a>
+                </div>
+                <div class="price standard">
+                    <h1>Standard</h1>
+                    <p>For teams up to 5 members</p>
+                    <h2>$49</h2>
+                    <h3>FEATURES</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>Rich components</li>
+                        <li><i class="fa-solid fa-check"></i>40+ elements</li>
+                        <li><i class="fa-solid fa-check"></i>100% uptime guaranteed</li>
+                        <li><i class="fa-solid fa-check"></i>6 months free support</li>
+                    </ul>
+                    <a href="">Get Started</a>
+                </div>
+                <div class="price premium">
+                    <h1>Premium</h1>
+                    <p>Best for corporations</p>
+                    <h2>$79</h2>
+                    <h3>FEATURES</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>Rich components</li>
+                        <li><i class="fa-solid fa-check"></i>60+ elements</li>
+                        <li><i class="fa-solid fa-check"></i>Flexible licensing</li>
+                        <li><i class="fa-solid fa-check"></i>100% uptime guaranteed</li>
+                        <li><i class="fa-solid fa-check"></i>12 months free support</li>
+                    </ul>
+                    <a href="">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback tenth-section">
+        <div class="feedback-inner container">
+            <div class="our-feedback">
+                <h1>Our Customers Feedback</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="customer-feedback">
+                <div class="customer">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Borem ipsum dolor sit a consec adipisicing elit, sed do eiusmo tempor incididunt ut labore etdolore m aliqu enim ad minim veniam qui nostrud exercitation ulla</p>
+                    <img src="allimages/david.svg" alt="">
+                    <h2>David Smith</h2>
+                    <h5>Web Developer</h5>
+                </div>
+                <div class="customer">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Borem ipsum dolor sit a consec adipisicing elit, sed do eiusmo tempor incididunt ut labore etdolore m aliqu enim ad minim veniam qui nostrud exercitation ulla</p>
+                    <img src="allimages/molly.svg" alt="">
+                    <h2>Molly Robinson</h2>
+                    <h5>Web Designer</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="updates eleventh-section">
+        <div class="updates-inner container">
+            <div class="recent-updates">
+                <h1>Our Recent Updates</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="blogs">
+                <div class="blog-post">
+                    <div class="scale-img">
+                        <img src="allimages/blog1.jpeg" alt="">
+                    </div>
+                    <h1>Ever too late to lose weight?</h1>
+                    <p>Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a href="">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <div class="scale-img">
+                        <img src="allimages/blog2.jpeg" alt="">
+                    </div>
+                    <h1>Medition Group Class Started</h1>
+                    <p>Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a href="">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <div class="scale-img">
+                        <img src="allimages/blog3.jpeg" alt="">
+                    </div>
+                    <h1>Obviously Everyone Goes</h1>
+                    <p>Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact twelfth-section">
+        <div class="contact-inner container">
+            <div class="contact-us">
+                <h1>Contact Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            </div>
+            <div class="get-in-touch">
+                <div class="phones">
+                    <h1>Get in touch with us</h1>
+                    <ul>
+                        <li>Phone :</li>
+                        <a href="">+900-888-707-123</a>
+                        <li>Email :</li>
+                        <a href="">name@yoursite.com</a>
+                        <li>Adress :</li>
+                        <p>Pasar kambing 58 Suite X.110</p>
+                        <p>Peterongan Semarang, USA</p>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <div class="flex">
+                        <input class="first-form" type="text" placeholder="Your name">
+                        <input class="first-form" type="text" placeholder="Your Email"> 
+                    </div>
+                    <input class="second-form" type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button class="button-red" type="submit">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="last thirteenth-section">
+        <div class="last-inner container">
+            <div class="copyright">
+                <p>Copyright 2022. All Rights Reserved</p>
+            </div>
+            <div class="social-media">
+                <div class="social-item">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="social-item">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="social-item">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="social-item">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js" integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+.center-services{
+    text-align: center;
+}
+.center-services h1{
+    font-size: 38px;
+    color: #fff;
+}
+.center-services p{
+    font-size: 18px;
+    color: #dedede;
+    margin-top: 30px;
+    line-height: 29px;
+}
+.services-columns{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 55px 0;
+}
+.special{
+    width: 30%;
+    height: 340px;
+    background-color: #010019;
+    margin-bottom: 30px;
+    border: 1px solid #8698a9;
+    border-radius: 5px;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.special h1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;  
+    padding: 150px 0 0px 0;  
+    position: absolute;
+    box-sizing: border-box;
+}
+.special p{
+    font-size: 18px;
+    color: #dedede;
+    text-align: center; 
+    line-height: 32px;
+    padding: 200px 20px 20px 30px;
+    position: absolute;
+    box-sizing: border-box;
+}
+.special i{
+    color: #fff; 
+    font-size: 36px;
+    margin-top: 60px; 
+    position: absolute;
+    z-index: 2;
+}
+.icon-box{ 
+    width: 22%;
+    height: 76px;
+    background-color: #0b1a39;
+    position: absolute;
+    margin-top: 40px;
+    border-radius: 15px; 
+    transform: rotate(45deg); 
+    z-index: 1;
+}
+.special:hover .icon-box{
+    width: 22%;
+    height: 76px;
+    background-color: #fe4c1c;
+    transition: .3s;
+    transform: rotate(0);
+}
+.border-box{
+    width: 22%;
+    height: 76px;
+    background-color:#010019 ;
+    border: 2px dashed #fe4c1c;
+    position: absolute;
+    margin-top: 40px;
+}
+.special:hover .border-box{
+    border: none;
+}
+@media(max-width:1160px){
+    .special{
+        height:370px;
+    }
+}
+@media(max-width:990px){
+    .services-columns{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .special{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .special{
+        width: 80%;
+    }
+}
+@media(max-width:350px){
+    .special{
+     height: 400px;
+    }
+ }
+
+
+
+
+    

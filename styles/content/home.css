@@ -1,0 +1,126 @@
+.home{
+    padding: 100px 0; 
+    background-image: url('../../allimages/home-1.jpeg');
+    background-size: cover;
+    height: 100vh;
+}
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0 6px 6px 0;
+    background-color: #fe4c1c;
+} 
+.next{
+    right: 0;
+    border-radius: 6px 0 0 6px;
+}
+.home-inner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home-inner h1{
+    font-size: 65px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 120px;
+}
+.home-inner p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 20px; 
+    line-height: 30px;
+}
+.sq{
+    width: 13%;
+    height: 45px;
+    margin-top: 30px;  
+}
+#red{
+    border-radius:50px;
+    border: 2px solid #fe4c1c;
+    background-color: #fe4c1c;
+    color: #fff;
+    box-sizing: border-box;
+}
+#red:hover{
+    background-color: rgba(255, 0, 0, 0);
+    transition: .3s;
+    color: #fe4c1c;
+}
+#white{
+    border-radius: 50px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+#white:hover{
+    background-color: #fe4c1c;
+    transition: .3s;
+    border: 2px solid red;
+}
+.parent{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.sq a{
+    display: inline-block;
+    color: white;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 50px;
+    height: 55px;
+    width: 90%;
+    padding: 20px 0;
+}
+@media(max-width:990px){
+    .sq{
+        width: 20%;
+    }
+    .home-inner{
+        width: 70%;
+    }
+}
+@media(max-width:660px){
+    .sq{
+        width: 30%;
+    }
+    .home-inner {
+        width: 50%;
+    }
+    .home-inner h1{
+        font-size: 50px;
+    }
+     .home-inner p{
+         font-size: 16px;
+    }
+} 
+@media(max-width:380px){
+    .home-inner h1{
+        font-size: 40px;
+    }
+     .home-inner p{
+         font-size: 13px;
+    }
+    .sq{
+        width: 30%;
+    }
+    .sq a{
+        font-size: 13px;
+    }
+}
+
+
+ 

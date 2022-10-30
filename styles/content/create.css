@@ -1,0 +1,66 @@
+.back-image{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../../allimages/banner.jpeg');
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+}
+.back-text{
+    width: 50%;
+    margin-left: 50px;
+}
+.back-text h1{
+    font-size: 38px;
+    color: #fff;
+    font-weight: bold;
+}
+.back-text p{
+    font-size: 18px;
+    color: #fff;
+}
+.back-contact{
+    width: 30%;
+}
+.back-contact a{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fe4c1c;
+    border: 2px solid #fe4c1c;
+    padding: 18px 45px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.back-contact a:hover{
+    border: 2px solid #fe4c1c;
+    color: #fe4c1c;
+    background-color: rgba(255, 0, 0, 0);
+    transition: .3s;
+}
+@media(max-width:760px){
+    .back-image{
+        flex-wrap: wrap;
+    }
+    .back-text{
+        width: 100%;
+    }
+    .back-text h1{
+        font-size: 25px;
+    }
+    .back-text p{
+        font-size: 15px;
+    }
+    .back-contact{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .back-contact a{
+        padding: 10px 30px;
+        border-radius: 50px;
+    }
+} 
